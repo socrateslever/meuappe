@@ -1,0 +1,9 @@
+
+{
+  "name": "MeuAppê",
+  "description": "SaaS imobiliário enterprise para gestão de quitinetes, focado em controle financeiro, jurídico e relacionamento com o locatário. Otimizado para Web e Mobile (PWA).",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
