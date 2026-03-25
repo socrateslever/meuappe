@@ -452,7 +452,7 @@
 
   var originalFetch = window.fetch.bind(window);
 
-  window.fetch = function (input, init) {
+  var _debugFetch = function (input, init) {
     init = init || {};
     var startTime = Date.now();
     // Handle string, Request object, or URL object
